@@ -1,0 +1,27 @@
+body{
+    background-color: #F2D5E5;
+    color: #BF3F61;
+}
+
+h1{
+    color: #F2059F;
+}
+
+div{
+    background-color: #F2A7D0;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.img{
+    border-radius: 20px;
+    margin-top: -100px;
+    height: 450px;
+}
+
+.introducao{
+    display: flex;
+    flex-direction: column;
+    margin: 20%;
+}
