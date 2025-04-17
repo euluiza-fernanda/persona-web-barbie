@@ -1,27 +1,54 @@
 body{
     background-color: #F2D5E5;
     color: #BF3F61;
+    margin: 0;
+    padding: 0;
+    font-family: "Zain", sans-serif;
+    font-size: 15px;
 }
 
-h1{
-    color: #F2059F;
+h1, .personagem{
+    color: #BF3F61;
+    font-family: "Updock", cursive;
+    font-size: 45px;
 }
+
 
 div{
     background-color: #F2A7D0;
     padding: 10px 20px;
     margin: 10px;
     border-radius: 20px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.305);
+    border-left: #bf3f614a solid 10px;
 }
 
 .img{
+    display: flex;
+    justify-content: center;
+}
+
+.img img{
     border-radius: 20px;
     margin-top: -100px;
-    height: 450px;
+    margin-bottom: 10px;
+    height: 640px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.305);
+    border: #bf3f614a solid 10px;
 }
 
 .introducao{
     display: flex;
     flex-direction: column;
     margin: 20%;
+}
+
+.rodape{
+    background-color: #F2A7D0;
+    text-align: center;
+    padding: 10px;
+}
+
+.rodape p{
+    margin: 0;
 }
